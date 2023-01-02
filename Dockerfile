@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:20-ea-28-jdk-slim
 ENV DATASOURCE_URL=0\
     DATASOURCE_USER=0\
     DATASOURCE_PASSWORD=0\
