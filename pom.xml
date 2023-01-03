@@ -16,7 +16,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.4.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -33,7 +33,7 @@
 		<HikariCP.version>3.3.0</HikariCP.version>
 		<mssql-jdbc.version>7.0.0.jre8</mssql-jdbc.version>
 		<azure.version>2.1.4</azure.version>
-		 <resteasy.version>3.6.1.Final</resteasy.version>
+		 <resteasy.version>3.15.3.Final</resteasy.version>
 		  <keycloak.version>6.0.1</keycloak.version>
 	</properties>
 
