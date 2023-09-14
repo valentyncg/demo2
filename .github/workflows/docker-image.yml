@@ -5,11 +5,14 @@ on:
 
 jobs:
 
-  build:
-
+  Build:
     runs-on: ubuntu-latest
+    environment:
+      name: test
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      - name: Deploy to Prod
+        run: |
+          echo "Deploying to Production Environment..."
+          # Add your deployment command here
