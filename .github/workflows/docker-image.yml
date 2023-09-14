@@ -10,7 +10,6 @@ jobs:
     environment:
       name: test
     steps:
-    - uses: actions/checkout@v3
       - name: Deploy to Prod
         run: |
           echo "Deploying to Production Environment..."
